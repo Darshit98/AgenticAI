@@ -1,7 +1,6 @@
 from agno.agent import Agent
 from agno.models.groq import Groq
 from agno.tools.yfinance import YFinanceTools
-# from agno.tools.duckduckgo import DuckDuckGo
 from agno.tools.duckduckgo import DuckDuckGoTools
 from dotenv import load_dotenv
 import os

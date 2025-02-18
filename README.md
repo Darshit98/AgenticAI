@@ -12,7 +12,7 @@ AgenticAI is a Python-based project that integrates multiple AI agents to perfor
   - [Multi AI Agent](#multi-ai-agent)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [Contact](#contact)
+
 
 ## Features
 - **Web Search**: Retrieve information from the web using DuckDuckGo.
