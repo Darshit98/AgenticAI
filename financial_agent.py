@@ -29,7 +29,9 @@ finance_agent=Agent(
                       stock_fundamentals=True, 
                       company_news=True)
         ],
-    instructions=["Use table to display the data"],
+    instructions=[
+        "Use table to display the data"
+    ],
     show_tool_calls=True,
     markdown=True
 )
@@ -42,4 +44,7 @@ multi_ai_agent=Agent(
     markdown=True
 )
 
-multi_ai_agent.print_response("Summarize analyst recommendation and share the latest news for NVDA", stream=True)
+try:
+    multi_ai_agent.print_response("Provide the latest analyst recommendations and news for NVDA.", stream=True)
+except Exception as e:
+    print(f"An error occurred: {e}")
